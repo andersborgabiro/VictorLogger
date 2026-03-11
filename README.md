@@ -8,17 +8,17 @@ A basic logger for Victor 70C and possibly other Victor multimeters.
 
 ## Enter
 
-Port (xxx, xxx...): (most likely the multimeter is not on COM1)
-File (VictorLogger.csv): (usually leave this be)
-Mode (normal, all, timevalues, values): (see the code for what values are included in each)
+- Port (xxx, xxx...): (most likely the multimeter is not on COM1)
+- File (VictorLogger.csv): (usually leave this be)
+- Mode (normal, all, timevalues, values): (see the code for what values are included in each)
 
 ## Status
 
-Reading from: xxx
-Writing to: xxx
-Break and save with Ctrl+C
-Title row
-Data rows...
+- Reading from: xxx
+- Writing to: xxx
+- Break and save with Ctrl+C
+- Title row
+- Data rows...
 
 ## Notes
 
