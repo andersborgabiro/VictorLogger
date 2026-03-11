@@ -3,7 +3,8 @@ A basic logger for Victor 70C and possibly other Victor multimeters.
 
 ## Preparation
 
-Hold REL/RS232 down until RS232 is shown at the top of the display.
+- Hold REL/RS232 down until RS232 is shown at the top of the display.
+- Use a USB-A or USB-C to USB mini cable and connect it to a PC.
 
 ## Enter
 
