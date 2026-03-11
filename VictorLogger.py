@@ -2,33 +2,30 @@
 # -*- coding: utf-8 -*-
 
 """
-Logger for Victor multimeters with USB/RS232. It's been verified with Victor 70C, but likely works with others with 4-digit display.
-Reference: "DMM Communication Protocol"
+Logger for Victor multimeters with USB/RS232. It's been verified with Victor 70C, but likely works with other Victor models with 4-digit display.
+Reference: "DMM Communication Protocol" and https://sigrok.org/wiki/Victor_protocol
 """
 
 """
-TODO Graphical UI
-TODO Choose communication port via enumerated list
-TODO Choose file to store log to
-TODO Handle starting and stopping logging
+TODO GUI
 """
 
 import csv
 import datetime
 import glob
 import math
-import serial
+import serial # pyserial
 import sys
 import traceback
 
 __author__ = "Anders Borg"
-__copyright__ = "Copyright 2021, Abiro AB"
+__copyright__ = "Copyright 2026, Abiro AB"
 __credits__ = ["Anders Borg"]
 __license__ = "Apache"
-__version__ = "0.1"
+__version__ = "0.2"
 __maintainer__ = "Anders Borg"
 __email__ = "anders.borg@abiro.com"
-__status__ = "Prototype"
+__status__ = "prototype"
 
 # Enumerate all serial ports
 def serial_ports():
